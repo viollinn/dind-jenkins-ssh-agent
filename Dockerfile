@@ -1,7 +1,7 @@
 FROM jenkins/ssh-agent
 
 RUN apt-get update &&\
-    apt-get clean -y && &&\
+    apt-get clean -y &&\
     apt-get install curl &&\
     rm -rf /var/lib/apt/lists/*
 
